@@ -36,6 +36,7 @@ public class Member {
     LocalDateTime dateUpdated;
 
     //this is constructor
+    //which is far better that
 
     public Member(String firstName, String lastName, String email) {
         this.firstName = firstName;
