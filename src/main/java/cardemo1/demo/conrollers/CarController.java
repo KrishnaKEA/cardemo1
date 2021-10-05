@@ -20,7 +20,7 @@ public class CarController {
         return carService.getCars(brand, model);
     }
 
-    //hello
+    //hello  how are you
    @GetMapping("/{id}")
     CarDTO getCar(@PathVariable int id){
         return carService.getCar(id);
