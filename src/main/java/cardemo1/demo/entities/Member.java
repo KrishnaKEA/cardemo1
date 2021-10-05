@@ -35,6 +35,8 @@ public class Member {
     @UpdateTimestamp
     LocalDateTime dateUpdated;
 
+    //this is constructor
+
     public Member(String firstName, String lastName, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
